@@ -1,0 +1,21 @@
+# LabMonitor Configuration — Real Hardware (Instructor only)
+
+device:
+  type: serial
+  port: COM3
+  baud_rate: 9600
+
+acquisition:
+  interval_ms: 200
+  strategy: continuous
+  channel: temperature
+
+output:
+  formats:
+    - csv
+    - json_metadata
+  directory: ./data
+
+gui:
+  plot_update_hz: 30
+  plot_buffer_size: 500

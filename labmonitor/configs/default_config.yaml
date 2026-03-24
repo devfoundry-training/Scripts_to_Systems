@@ -1,0 +1,22 @@
+# LabMonitor Configuration
+# Change device.type to 'serial' to use real hardware.
+
+device:
+  type: simulated          # 'simulated' or 'serial'
+  port: COM3               # Serial port (only used when type=serial)
+  baud_rate: 9600          # Baud rate (only used when type=serial)
+
+acquisition:
+  interval_ms: 100         # Milliseconds between readings
+  strategy: continuous     # 'single', 'continuous', or 'averaging'
+  channel: temperature     # 'temperature', 'voltage', or 'all'
+
+output:
+  formats:
+    - csv
+    - json_metadata
+  directory: ./data
+
+gui:
+  plot_update_hz: 30       # Plot refresh rate
+  plot_buffer_size: 500    # Number of points shown on plot

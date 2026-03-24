@@ -1,0 +1,8 @@
+PySide6>=6.5
+pyqtgraph>=0.13
+pyserial>=3.5
+pint>=0.22
+PyYAML>=6.0
+numpy>=1.24
+# Optional
+# h5py>=3.9
