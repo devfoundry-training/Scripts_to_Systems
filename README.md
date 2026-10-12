@@ -47,6 +47,8 @@ Packages: PySide6, PyQtGraph, pyserial, Pint, PyYAML, NumPy (h5py optional).
 
 Why scripts break, and how objects, seams and two patterns fix them.
 
+**Day 1 is the same in both tracks.** If you have already done Day 1 of the Beginner course, you can skip it.
+
 | Topic | What You'll Learn |
 |-------|-------------------|
 | Why Scripts Break | Global state, tight coupling, mixed responsibilities |
