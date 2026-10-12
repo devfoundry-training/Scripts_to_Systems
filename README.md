@@ -137,7 +137,7 @@ The `SimulatedInstrumentAdapter` generates realistic temperature and voltage rea
 
 ## Before This Course
 
-New to Python? Start with the beginner track first: Python foundations, functions, abstract base classes and the same instrument patterns at a gentler pace.
+New to Python? Start with the beginner track first, **[From Scripts to Systems: Beginner](https://github.com/devfoundry-training/Scripts_to_Systems_Beginner)**: Python foundations, functions, abstract base classes and the same instrument patterns at a gentler pace.
 
 ---
 
